@@ -1,0 +1,43 @@
+<!doctype html>
+    <html>
+      <head>
+            <title> css intro </title>
+        </head>
+     <style>
+         h2
+       {
+          color:yellow:
+    font:style;60px;
+          }
+       pre
+   {
+    color:skyblue
+     background-color:red;
+       font-size:20px;
+      }
+       *
+       {   
+         background-color:pink;
+        }
+     p{
+    color:skyblue;
+     background-color:white;
+          font-size:20px;
+  }
+</style>
+     <body>
+      <!.. inline css...>
+     <h1> style="color:white;background color:dark blue;" welcome to css world
+ </h1>
+   <p>
+       <this is para
+       </p>
+    </h1>
+   <h1> i am heading </h1> 
+    <h2> css is used to style web page </h2>
+       <pre>
+      hello welcome to my world
+   </pre>
+    <h2> byeeeee </h2>
+      </body>
+   <./html>
