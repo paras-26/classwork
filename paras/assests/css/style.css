@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+  nav{
+     background-color: yellowgreen;
+      width: 100px;
+  }
+    .flex-container{
+           display: flex;
+    }
+     .li{
+        display: flex;
+        margin-left: 50%;
+     }
+
+     a{
+        color: blue;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: 700;
+        transition:5px;
+     }
+     a:hover{
+        background-color:yellow;
+        columns: black;
+     }
+     .flex-item{
+           flex: 20%;
+           background-color: aqua;
+     }
+     .flex-item2{
+        flex: 80%;
+        background-color: yellowgreen;
+     }
+       .ul{
+        list-style-type: none;
+       }
+        li{
+            display: inline;
+            margin-left: 40px;
+        }
+        .slider{
+            height: 600px;
+            background-color: brown;
+            animation-name: rrrr;
+            animation-delay: 3s;
+            animation-iteration-count: infinite;
+            animation-duration: 2s;
+        }
+          @keyframes rrrr{
+            from{
+                background-color:yellowgreen;
+            }
+            to{
+                background-color: purple;
+            }
+          }
+       
