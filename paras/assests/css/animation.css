@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: o;
+}
+  .div1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 50%;
+   position: absolute;
+      /*animation starts here*/
+        animation-name: rrrr;
+        animation-delay: 1s;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    
+
+  } 
+      @keyframes rrrr{
+             0%{
+                  top: 0px;
+                  left: 0px;
+             }
+             25%{
+                   top: 0px;
+                   left: 400px;
+             }
+             50%{
+                    top: 400px;
+                    left: 400px;
+             }
+             75%{
+                      top: 400px;
+                      left: 0px;
+             } 
+             100%{
+                    top: 0px;
+                    left: 0px;
+             }
+      }
+     
