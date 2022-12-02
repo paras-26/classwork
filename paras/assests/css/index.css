@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: blueviolet;
+}
+.flex-container{
+    display: flex;
+}
+header ul {
+    list-style-type: none;
+}
+header ul li {
+    display: inline;
+    margin-left: 40px;
+}
+header ul li a{
+    color: aqua;
+    font-size: 30px;
+    text-decoration:none;
+    transition: 2s all;
+}
+header ul li a :hover{
+    text-decoration: none;
+    color: darkgreen;
+    background-color: darkred;
+}
+.left-header{
+    flex: 50%;
+}
+.right-header{
+    flex: 50%;
+}
+/*Nav css start here*/
+nav{
+    background-color: brown;
+}
+.left-nav{
+    flex: 20%;
+
+}
+.right-nav{
+    flex:80%;
+
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+    margin: 40px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size:30px;
+    color: aquamarine;
+    transition: 2s all;
+}
+nav ul li a:hover {
+    text-decoration: none;
+    color: blue;
+    background-color:black;
+}
+h1{
+    color:mediumvioletred;
+}
+.menu .dropdown{
+    position: absolute;
+    height:auto;
+    width: 120px;
+    background-color:darkgreen;
+    left:47%;
+    display: none;
+    line-height: 30px;
+    box-shadow: 10px 10px;
+}
+.menu:hover .dropdown{
+    display: block;
+}
